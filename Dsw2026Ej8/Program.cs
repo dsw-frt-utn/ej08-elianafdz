@@ -5,7 +5,16 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-            Console.WriteLine(Problema2.CrearResumenVenta(1, "Mouse", 2, 1000));
+            Product p = new Product();
+            p.SetDescription("Original");
+
+            // llamamos al método
+            string resultado = Problema3.CompararCopias(5, p);
+
+            Console.WriteLine(resultado);
+
+            // vemos qué pasó con el producto original
+            Console.WriteLine(p.GetDescription());
         }
     }
 }
