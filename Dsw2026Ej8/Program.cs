@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Console.WriteLine("Hello, World!");
-            Console.WriteLine(Problema4.CalcularPromedio(null, null, null));
+            Console.WriteLine(Problema6.NormalizarCodigoProducto(" ab 123 x "));
         }
     }
 }
