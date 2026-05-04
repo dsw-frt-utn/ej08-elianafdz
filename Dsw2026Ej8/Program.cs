@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+          //  Console.WriteLine("Hello, World!");
+            Console.WriteLine(ProductHelper.ObtenerEtiquetaProducto(1, "Mouse", 1000));
         }
     }
 }
